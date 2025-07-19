@@ -1,5 +1,5 @@
 # Add a new task in main project script
-add_task() {
+new_task() {
     read -rp "Enter task description: " task
     if [[ -z "$task" ]]; then
         echo "Task cannot be empty."
