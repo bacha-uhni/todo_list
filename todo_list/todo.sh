@@ -39,7 +39,7 @@ main() {
         read -rp "Choose an option [1-6]: " choice
         case $choice in
             1) list_tasks ;;
-            2) add_task ;;
+            2) new_task ;;
             3) mark_task_done ;;
             4) delete_task ;;
             5) clear_tasks ;;
